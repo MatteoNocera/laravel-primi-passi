@@ -6,8 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 
-    <!-- My Style -->
-    <link rel="stylesheet" href="/laravel/laravel-primi-passi/resources/css/app.css">
 </head>
 
 <body>
