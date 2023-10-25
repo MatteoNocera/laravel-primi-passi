@@ -9,6 +9,9 @@
 
 <body>
     <h1>Hello World</h1>
+    <h3>{{$title}}</h3>
+    <p>{{$text}}</p>
+    <p><small>{{$bonus}}</small></p>
 </body>
 
 </html>
