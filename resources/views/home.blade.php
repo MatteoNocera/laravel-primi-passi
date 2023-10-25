@@ -11,9 +11,9 @@
     <header>
         <nav>
             <div>
-                <a href="/laravel/laravel-primi-passi/resources/views/exercise.blade.php">Exercise</a>
+                <a href="/exercise">Exercise</a>
 
-                <a aria-current="page" href="home.blade.php">Home</a>
+                <a href="/">Home</a>
 
 
             </div>

@@ -14,6 +14,12 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
+
+    return view('home');
+});
+
+Route::get('/exercise', function () {
+
     $data = [
         'title' => 'Laravel-primi-passi',
         'text' => 'Ciao @qui, oggi iniziamo a muovere i primi passi con questo fantastico framework che è Laravel! :mani_a_cuore:
@@ -23,9 +29,5 @@ Route::get('/', function () {
         'bonus' => 'Creiamo più di una pagina e visualizziamo un header menu con i link di tutte le pagine, utilizzando la funzione route()'
 
     ];
-    return view('home', $data);
-});
-
-Route::get('exercise', function () {
-    return view('exercise');
+    return view('exercise', $data);
 });
