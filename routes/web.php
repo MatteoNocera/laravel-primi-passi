@@ -25,3 +25,7 @@ Route::get('/', function () {
     ];
     return view('home', $data);
 });
+
+Route::get('exercise', function () {
+    return view('exercise');
+});

@@ -11,17 +11,17 @@
     <header>
         <nav>
             <div>
-                <a href="/laravel/laravel-primi-passi/resources/views/exercise.blade.php">Exercise</a>
+                <a href="./exercise.blade.php">Exercise</a>
 
-                <a aria-current="page" href="home.blade.php">Home</a>
+                <a aria-current="page" href="./home.blade.php">Home</a>
 
 
             </div>
         </nav>
     </header>
-    <h1>Hello World</h1>
-    <h3>Click on Exercise to seen it</h3>
-
+    <h1>{{$title}}</h1>
+    <p>{{$text}}</p>
+    <p><small>{{$bonus}}</small></p>
 </body>
 
 </html>
